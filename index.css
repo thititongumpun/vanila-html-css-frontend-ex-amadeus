@@ -13,3 +13,9 @@ body {
         transform: translateX(-50%);
     }
 }
+
+@media (max-width:767px) {
+    .navbar-brand {
+        order: 1;
+    }
+}
